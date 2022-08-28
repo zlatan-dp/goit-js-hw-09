@@ -19,8 +19,18 @@ img {
 
 .timer {
   display: flex;
+  margin-top: 10px;
 }
 
-/* .field:not-last {
+.field:not(:last-child) {
   margin-right: 10px;
-} */
+}
+
+.value {
+  color: #ef5350;
+  font-weight: 700;
+}
+
+.label {
+  font-weight: 500;
+}
